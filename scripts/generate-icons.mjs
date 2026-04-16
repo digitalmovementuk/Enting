@@ -5,6 +5,7 @@ import sharp from 'sharp'
 const publicDir = resolve(process.cwd(), 'public')
 const faviconSvg = resolve(publicDir, 'favicon.svg')
 const ogSvg = resolve(publicDir, 'og-image.svg')
+const shareSvg = resolve(publicDir, 'share-thumbnail.svg')
 
 await mkdir(dirname(resolve(publicDir, 'favicon-16x16.png')), { recursive: true })
 
@@ -13,3 +14,4 @@ await sharp(faviconSvg).resize(32, 32).png().toFile(resolve(publicDir, 'favicon-
 await sharp(faviconSvg).resize(48, 48).png().toFile(resolve(publicDir, 'favicon-48x48.png'))
 await sharp(faviconSvg).resize(180, 180).png().toFile(resolve(publicDir, 'apple-touch-icon.png'))
 await sharp(ogSvg).resize(1200, 630).png().toFile(resolve(publicDir, 'og-image.png'))
+await sharp(shareSvg).resize(1200, 630).png().toFile(resolve(publicDir, 'share-thumbnail.png'))
