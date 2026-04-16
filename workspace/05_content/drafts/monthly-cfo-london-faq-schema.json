@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does a monthly CFO do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A monthly CFO provides recurring senior finance leadership, including reporting review, performance interpretation, forecasting support, and management decision support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Monthly CFO London the same as Fractional CFO London?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monthly CFO London usually describes a recurring monthly engagement, while Fractional CFO London is a broader term for part-time CFO support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is this service best suited to?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is best suited to growing businesses that need stronger reporting, better cash visibility, and senior finance leadership without hiring a full-time CFO."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should a business expect each month?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A business should expect structured reporting, commentary, review of key numbers, and clearer links between finance data and management decisions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can this work with our current accountant or finance team?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A monthly CFO can work alongside an existing accountant, finance manager, or outsourced finance resource to add leadership, interpretation, and structure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When is a monthly CFO a better choice than a full-time hire?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A monthly CFO is often a better fit when a business needs senior finance guidance regularly but is not ready for the cost or commitment of a full-time CFO."
+      }
+    }
+  ]
+}

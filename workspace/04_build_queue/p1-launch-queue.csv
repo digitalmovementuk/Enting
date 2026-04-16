@@ -1,0 +1,46 @@
+row_id,service,keyword_group,location,page_type,template_type,target_keyword,suggested_slug,parent_page_slug,priority
+91,Cashflow Management,Startup finance,London,audience,audience-page,Startup finance London,startup-finance-london,cashflow-management-london,P1
+61,Cashflow Management,Cashflow Management,London,core-service,service-page,Cashflow Management London,cashflow-management-london,cashflow-management-london,P1
+421,Cashflow Management,Cash Flow Forecast,London,deliverable,service-page,Cash Flow Forecast London,cash-flow-forecast-london,cashflow-management-london,P1
+411,Cashflow Management,Cash Flow Forecasting,London,deliverable,service-page,Cash Flow Forecasting London,cash-flow-forecasting-london,cashflow-management-london,P1
+71,Cashflow Management,Business Cash support,London,support-service,service-page,Business Cash support London,business-cash-support-london,cashflow-management-london,P1
+81,Cashflow Management,Business Finance support,London,support-service,service-page,Business Finance support London,business-finance-support-london,cashflow-management-london,P1
+11,Financial Reporting,Finance Performance,London,adjacent-service,service-page,Finance Performance London,finance-performance-london,financial-reporting-london,P1
+1,Financial Reporting,Financial Reporting,London,core-service,service-page,Financial Reporting London,financial-reporting-london,financial-reporting-london,P1
+51,Financial Reporting,Budget versus actual analysis,London,deliverable,service-page,Budget versus actual analysis London,budget-versus-actual-analysis-london,financial-reporting-london,P1
+391,Financial Reporting,Management Accounts,London,deliverable,service-page,Management Accounts London,management-accounts-london,financial-reporting-london,P1
+31,Financial Reporting,Monthly Budget,London,deliverable,service-page,Monthly Budget London,monthly-budget-london,financial-reporting-london,P1
+401,Financial Reporting,Monthly Management Accounts,London,deliverable,service-page,Monthly Management Accounts London,monthly-management-accounts-london,financial-reporting-london,P1
+41,Financial Reporting,Variance analysis,London,deliverable,service-page,Variance analysis London,variance-analysis-london,financial-reporting-london,P1
+21,Financial Reporting,Finance analyst,London,role-based,service-page,Finance analyst London,finance-analyst-london,financial-reporting-london,P1
+431,Generic,Finance Business Partner,London,commercial,service-page,Finance Business Partner London,finance-business-partner-london,generic-london,P1
+441,Generic,Outsourced Finance Team,London,delivery-model,service-page,Outsourced Finance Team London,outsourced-finance-team-london,generic-london,P1
+111,Generic,Finance help,London,generic-service,service-page,Finance help London,finance-help-london,generic-london,P1
+101,Generic,Finance support,London,generic-service,service-page,Finance support London,finance-support-london,generic-london,P1
+371,Monthly CFO,fractional cfo for startups,London,audience,audience-page,fractional cfo for startups London,fractional-cfo-for-startups-london,monthly-cfo-london,P1
+251,Monthly CFO,Fractional CFO Advise,London,commercial,service-page,Fractional CFO Advise London,fractional-cfo-advise-london,monthly-cfo-london,P1
+241,Monthly CFO,Fractional CFO Consulting,London,commercial,service-page,Fractional CFO Consulting London,fractional-cfo-consulting-london,monthly-cfo-london,P1
+231,Monthly CFO,Fractional CFO Services,London,commercial,service-page,Fractional CFO Services London,fractional-cfo-services-london,monthly-cfo-london,P1
+381,Monthly CFO,best fractional cfo companies,London,comparison,comparison-page,best fractional cfo companies London,best-fractional-cfo-companies-london,monthly-cfo-london,P1
+281,Monthly CFO,Core Monthly CFO,London,core-service,service-page,Core Monthly CFO London,core-monthly-cfo-london,monthly-cfo-london,P1
+191,Monthly CFO,Fractional CFO,London,core-service,service-page,Fractional CFO London,fractional-cfo-london,monthly-cfo-london,P1
+121,Monthly CFO,Monthly CFO,London,core-service,service-page,Monthly CFO London,monthly-cfo-london,monthly-cfo-london,P1
+271,Monthly CFO,CFO Dashboard,London,deliverable,service-page,CFO Dashboard London,cfo-dashboard-london,monthly-cfo-london,P1
+211,Monthly CFO,CFO Monthly Financial Report,London,deliverable,service-page,CFO Monthly Financial Report London,cfo-monthly-financial-report-london,monthly-cfo-london,P1
+201,Monthly CFO,Monthly Financial Reports,London,deliverable,service-page,Monthly Financial Reports London,monthly-financial-reports-london,monthly-cfo-london,P1
+221,Monthly CFO,Monthly Management Meetings,London,deliverable,service-page,Monthly Management Meetings London,monthly-management-meetings-london,monthly-cfo-london,P1
+141,Monthly CFO,Freelance accountant,London,delivery-model,service-page,Freelance accountant London,freelance-accountant-london,monthly-cfo-london,P1
+131,Monthly CFO,Outsourced accountant,London,delivery-model,service-page,Outsourced accountant London,outsourced-accountant-london,monthly-cfo-london,P1
+311,Monthly CFO,Virtual CFO,London,delivery-model,service-page,Virtual CFO London,virtual-cfo-london,monthly-cfo-london,P1
+181,Monthly CFO,Finance help,London,generic-service,service-page,Finance help London,finance-help-london,monthly-cfo-london,P1
+261,Monthly CFO,Monthly Financial Review Checklist,London,informational,guide-page,Monthly Financial Review Checklist London,monthly-financial-review-checklist-london,monthly-cfo-london,P1
+291,Monthly CFO,Monthly Financial review,London,informational,guide-page,Monthly Financial review London,monthly-financial-review-london,monthly-cfo-london,P1
+331,Monthly CFO,how to hire a fractional cfo,London,informational,guide-page,how to hire a fractional cfo London,how-to-hire-a-fractional-cfo-london,monthly-cfo-london,P1
+351,Monthly CFO,what does a fractional cfo do,London,informational,guide-page,what does a fractional cfo do London,what-does-a-fractional-cfo-do-london,monthly-cfo-london,P1
+361,Monthly CFO,what is fractional cfo,London,informational,guide-page,what is fractional cfo London,what-is-fractional-cfo-london,monthly-cfo-london,P1
+341,Monthly CFO,fractional cfo uk,London,national-intent,landing-page,fractional cfo uk London,fractional-cfo-uk-london,monthly-cfo-london,P1
+301,Monthly CFO,FInancial controller,London,role-based,service-page,FInancial controller London,financial-controller-london,monthly-cfo-london,P1
+151,Monthly CFO,Finance director support,London,support-service,service-page,Finance director support London,finance-director-support-london,monthly-cfo-london,P1
+161,Monthly CFO,Finance team,London,team-model,service-page,Finance team London,finance-team-london,monthly-cfo-london,P1
+171,Monthly CFO,Part-time finance team,London,team-model,service-page,Part-time finance team London,part-time-finance-team-london,monthly-cfo-london,P1
+321,Monthly CFO,Hire a fractional cfo,London,transactional,landing-page,Hire a fractional cfo London,hire-a-fractional-cfo-london,monthly-cfo-london,P1

@@ -1,16 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#f7f1e8" />
-  <circle cx="180" cy="140" r="180" fill="#eadfcd" />
-  <circle cx="1030" cy="520" r="180" fill="#c76b31" opacity="0.18" />
-  <rect x="92" y="92" width="1016" height="446" rx="32" fill="#121212" />
-  <text x="150" y="255" fill="#f7f1e8" font-size="54" font-family="Manrope, Arial, sans-serif" letter-spacing="8">
-    ENTING
+  <rect width="1200" height="630" fill="#f6f2ea" />
+  <rect x="58" y="58" width="1084" height="514" rx="38" fill="#fffdfa" stroke="#dfe6e1" />
+  <rect x="96" y="94" width="464" height="442" rx="32" fill="#1a483a" />
+  <circle cx="986" cy="136" r="92" fill="#e9dcc6" />
+  <circle cx="1004" cy="476" r="128" fill="#dfe9e4" />
+  <text x="152" y="168" fill="#fffdfa" font-size="34" font-family="Manrope, Arial, sans-serif" letter-spacing="8">
+    FINANCEABLE CONSULTING
   </text>
-  <text x="150" y="345" fill="#f7f1e8" font-size="94" font-family="Manrope, Arial, sans-serif" font-weight="700">
-    SEO Project Starter
+  <text x="152" y="264" fill="#fffdfa" font-size="86" font-family="Fraunces, Georgia, serif" font-weight="700">
+    Practical
   </text>
-  <text x="150" y="422" fill="#f0b28b" font-size="38" font-family="Manrope, Arial, sans-serif">
-    Scaffold fuer lokale Landingpages, Content-Templates und Geo-Generierung
+  <text x="152" y="350" fill="#fffdfa" font-size="86" font-family="Fraunces, Georgia, serif" font-weight="700">
+    finance support
   </text>
+  <text x="152" y="426" fill="#d6ece4" font-size="34" font-family="Manrope, Arial, sans-serif">
+    Monthly CFO • Financial Reporting • Cashflow Management
+  </text>
+  <rect x="640" y="128" width="422" height="164" rx="28" fill="#fffdfa" stroke="#dfe6e1" />
+  <text x="684" y="174" fill="#1a483a" font-size="22" font-family="Manrope, Arial, sans-serif" letter-spacing="3">
+    MONTHLY VISIBILITY
+  </text>
+  <text x="684" y="230" fill="#11211d" font-size="58" font-family="Fraunces, Georgia, serif" font-weight="700">
+    Clearer numbers,
+  </text>
+  <text x="684" y="286" fill="#11211d" font-size="58" font-family="Fraunces, Georgia, serif" font-weight="700">
+    calmer decisions
+  </text>
+  <rect x="640" y="332" width="188" height="152" rx="28" fill="#1a483a" />
+  <text x="674" y="378" fill="#fffdfa" font-size="18" font-family="Manrope, Arial, sans-serif" letter-spacing="2">
+    CASH VIEW
+  </text>
+  <text x="674" y="440" fill="#fffdfa" font-size="48" font-family="Fraunces, Georgia, serif" font-weight="700">
+    Rolling
+  </text>
+  <text x="674" y="478" fill="#fffdfa" font-size="24" font-family="Manrope, Arial, sans-serif">
+    forecast rhythm
+  </text>
+  <rect x="852" y="332" width="210" height="152" rx="28" fill="#fffdfa" stroke="#dfe6e1" />
+  <text x="886" y="378" fill="#1a483a" font-size="18" font-family="Manrope, Arial, sans-serif" letter-spacing="2">
+    DECISION SUPPORT
+  </text>
+  <text x="886" y="430" fill="#11211d" font-size="44" font-family="Fraunces, Georgia, serif" font-weight="700">
+    Built for
+  </text>
+  <text x="886" y="470" fill="#11211d" font-size="44" font-family="Fraunces, Georgia, serif" font-weight="700">
+    growing teams
+  </text>
+  <rect x="674" y="516" width="132" height="14" rx="7" fill="#b68444" />
 </svg>
-

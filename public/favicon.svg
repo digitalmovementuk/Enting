@@ -1,6 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Enting favicon">
-  <rect width="128" height="128" rx="28" fill="#121212" />
-  <path d="M28 36h68v12H42v16h46v12H42v16h54v12H28V36Z" fill="#f7f1e8" />
-  <circle cx="98" cy="94" r="10" fill="#c76b31" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="Financeable Consulting favicon">
+  <rect width="180" height="180" rx="44" fill="#1a483a" />
+  <path d="M48 46h84v16H66v20h52v16H66v36H48V46Z" fill="#fffdfa" />
+  <rect x="120" y="108" width="20" height="20" rx="8" fill="#b68444" />
 </svg>
-
