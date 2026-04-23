@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cuno Consulting — Senior finance support for growing businesses</title>
-    <meta name="description" content="Reporting, cash visibility, and finance leadership without the full-time CFO hire. Senior Finance Support, Management Reporting and Cashflow Forecasting for founder-led businesses." />
+    <meta name="description" content="Finance leadership, reporting, and cash visibility without the full-time CFO hire, built for founder-led businesses and growing SMEs." />
     <link rel="canonical" href="https://digitalmovementuk.github.io/Enting/v8/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Cuno Consulting — Senior finance support for growing businesses" />
-    <meta property="og:description" content="Reporting, cash visibility, and finance leadership without the full-time CFO hire." />
+    <meta property="og:description" content="Finance leadership, reporting, and cash visibility without the full-time CFO hire, built for founder-led businesses and growing SMEs." />
     <meta property="og:url" content="https://digitalmovementuk.github.io/Enting/v8/" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Cuno Consulting — Senior finance support for growing businesses" />
-    <meta name="twitter:description" content="Reporting, cash visibility, and finance leadership without the full-time CFO hire." />
+    <meta name="twitter:description" content="Finance leadership, reporting, and cash visibility without the full-time CFO hire, built for founder-led businesses and growing SMEs." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -368,21 +368,35 @@
         display: none;
         width: 100%;
         gap: 0.65rem;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
       }
-      .hero__metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem; width: 100%; }
+      .hero__metrics {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.75rem;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+      }
       @media (max-width: 640px) { .hero__metrics { grid-template-columns: 1fr 1fr; } }
       .hero__metric {
+        display: grid;
+        justify-items: center;
         padding: 0.9rem 1rem;
         border: 1px solid rgba(255,255,255,0.14);
         border-radius: var(--r-md);
         background: rgba(12, 24, 38, 0.46);
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.08), 0 10px 28px rgba(2,10,18,0.26);
         backdrop-filter: blur(14px);
+        text-align: center;
       }
       .hero__metric-label { font-size: 0.68rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(216, 228, 244, 0.78); }
       .hero__metric-value { margin-top: 0.35rem; font-size: 0.88rem; line-height: 1.4; color: #fff; }
       .hero__note {
         display: inline-flex; align-items: center; gap: 0.5rem;
+        justify-content: center;
         padding: 0.5rem 0.9rem;
         font-size: 0.8125rem;
         color: rgba(232,240,248,0.88);
@@ -390,6 +404,8 @@
         border-radius: 999px;
         background: rgba(12, 24, 38, 0.38);
         backdrop-filter: blur(12px);
+        margin-inline: auto;
+        text-align: center;
       }
       .hero__note::before {
         content: ''; width: 6px; height: 6px; border-radius: 999px;
@@ -1433,7 +1449,7 @@
         <div class="hero__copy">
           <span class="pill pill--dark">Senior Finance Support</span>
           <h1 class="hero__title">Clarity for growing businesses.</h1>
-          <p class="hero__lead">Cash visibility, reporting, and finance support without a full-time CFO.</p>
+          <p class="hero__lead">Finance leadership, reporting, and cash visibility, without the full-time CFO hire, made for founders.</p>
           <div class="hero__social" aria-label="Credibility highlights">
             <span class="hero__social-label">Client feedback</span>
             <div class="hero__social-row">
@@ -1443,10 +1459,13 @@
             </div>
           </div>
           <div class="hero__actions">
-            <a href="mailto:info@cuno.consulting?subject=Consultation%20request" class="btn btn--on-dark">Book a consultation</a>
-            <a href="mailto:info@cuno.consulting?subject=Question%20about%20finance%20support" class="btn btn--ghost">Send a question</a>
+            <a href="#contact" class="btn btn--ghost btn--small">Book a consultation</a>
           </div>
           <div class="hero__metrics">
+            <div class="hero__metric">
+              <div class="hero__metric-label">Support</div>
+              <div class="hero__metric-value">Commercially focused</div>
+            </div>
             <div class="hero__metric">
               <div class="hero__metric-label">Reporting</div>
               <div class="hero__metric-value">Decision-ready monthly</div>
@@ -1454,10 +1473,6 @@
             <div class="hero__metric">
               <div class="hero__metric-label">Cash insight</div>
               <div class="hero__metric-value">Forward-looking</div>
-            </div>
-            <div class="hero__metric">
-              <div class="hero__metric-label">Support</div>
-              <div class="hero__metric-value">Commercially focused</div>
             </div>
           </div>
           <div class="hero__note">No retainer or commitment required. First conversation is exploratory.</div>
@@ -1495,12 +1510,14 @@
 
       <div class="marquee-shell">
         <div class="marquee-track" aria-hidden="true">
+          <div class="marquee-chip">London-focused support</div>
+          <div class="marquee-chip">Clear monthly decisions</div>
+          <div class="marquee-chip">No commitment upfront</div>
           <div class="marquee-chip">Founder-led businesses</div>
           <div class="marquee-chip">Growing SMEs</div>
           <div class="marquee-chip">Senior finance support</div>
           <div class="marquee-chip">Management reporting</div>
           <div class="marquee-chip">Cashflow forecasting</div>
-          <div class="marquee-chip">London-focused support</div>
           <div class="marquee-chip">Clear monthly decisions</div>
           <div class="marquee-chip">No commitment upfront</div>
           <div class="marquee-chip">Founder-led businesses</div>
@@ -1521,9 +1538,8 @@
         <div class="section__intro section__intro-split reveal">
           <div>
             <div class="eyebrow"><span class="eyebrow__index">01</span> · Capabilities</div>
-            <h2 class="h-section">Three finance routes, built around the moments clarity slips.</h2>
+            <h2 class="h-section">Three finance routes, built around the moments when clarity slips.</h2>
           </div>
-          <p class="h-lead">Senior finance support, management reporting, and cashflow forecasting — each designed to give leadership clearer monthly control, without forcing an early full-time hire.</p>
         </div>
 
         <div class="caps__grid">
@@ -1568,12 +1584,12 @@
                 <div class="cap-card__index">01</div>
                 <div class="cap-card__tag">Senior Finance Support</div>
               </div>
-              <h3 class="cap-card__title">Clarity, control, and strong foundations.</h3>
-              <p class="cap-card__copy">A recurring senior finance model for businesses that need clearer reporting, sharper decision support, and a dependable monthly operating rhythm.</p>
+              <h3 class="cap-card__title">Run your finances with structure and support</h3>
+              <p class="cap-card__copy">A recurring senior finance setup for businesses that need structure and consistency with ongoing input into how your finances are managed month to month.</p>
               <ul class="cap-card__list">
-                <li>Structured monthly reporting</li>
-                <li>Strategic support for leadership</li>
-                <li>Recurring senior-level input</li>
+                <li>Finance, handled properly</li>
+                <li>Clear input on key decisions</li>
+                <li>Ongoing structure &amp; support</li>
               </ul>
               <div class="cap-card__footer">
                 <a href="#contact" class="link-arrow">
@@ -1630,12 +1646,12 @@
                 <div class="cap-card__index">02</div>
                 <div class="cap-card__tag">Management Reporting</div>
               </div>
-              <h3 class="cap-card__title">Numbers turned into decision-ready insight.</h3>
-              <p class="cap-card__copy">Clear, accurate monthly reporting with focused commentary that leadership can use to make confident decisions.</p>
+              <h3 class="cap-card__title">Numbers you don’t have to second guess.</h3>
+              <p class="cap-card__copy">Clear, accurate monthly reporting with straightforward commentary so you can understand performance.</p>
               <ul class="cap-card__list">
-                <li>Structured management accounts</li>
-                <li>Full visibility over performance</li>
-                <li>Focused monthly commentary</li>
+                <li>Consistent monthly reporting</li>
+                <li>Clear view over performance</li>
+                <li>No digging required</li>
               </ul>
               <div class="cap-card__footer">
                 <a href="#contact" class="link-arrow">
@@ -1692,12 +1708,12 @@
                 <div class="cap-card__index">03</div>
                 <div class="cap-card__tag">Cashflow Forecasting</div>
               </div>
-              <h3 class="cap-card__title">Forward cash visibility before pressure builds.</h3>
-              <p class="cap-card__copy">Rolling cash forecasting, structured planning cadence, and practical support give you a reliable view of liquidity and what is ahead.</p>
+              <h3 class="cap-card__title">Know what’s coming, not just what’s in the bank.</h3>
+              <p class="cap-card__copy">A rolling cashflow setup that shows what’s ahead, so you’re not relying on your bank balance or making decisions under pressure.</p>
               <ul class="cap-card__list">
-                <li>Rolling cashflow forecast</li>
-                <li>Forward cash-position clarity</li>
-                <li>Practical planning cadence</li>
+                <li>Understand cash movements</li>
+                <li>Spot issues ahead</li>
+                <li>Plan ahead, confidently</li>
               </ul>
               <div class="cap-card__footer">
                 <a href="#contact" class="link-arrow">
@@ -1717,8 +1733,7 @@
         <div class="journey__grid">
           <div class="journey__aside reveal">
             <div class="eyebrow"><span class="eyebrow__index">02</span> · How it works</div>
-            <h2 class="h-section">Understand the setup. Build the routine. Support better decisions.</h2>
-            <p class="h-lead">Cuno reviews what is happening now, builds the right monthly routine, and helps finance become easier to manage as the business grows.</p>
+            <h2 class="h-section">Understand what’s not working. Build the routine. Support better decisions.</h2>
 
             <div class="journey__figure">
               <div class="journey__figure-label">Typical timeline</div>
@@ -1762,35 +1777,35 @@
               <div class="journey-step__num">01</div>
               <div class="journey-step__body">
                 <h3 class="journey-step__title">Current setup</h3>
-                <p class="journey-step__copy">Identify where clarity is being lost through a full review of your current finance setup — systems, cadence, and reporting gaps.</p>
+                <p class="journey-step__copy">Find where things are breaking through a full review of your setup.</p>
               </div>
             </li>
             <li class="journey-step">
               <div class="journey-step__num">02</div>
               <div class="journey-step__body">
                 <h3 class="journey-step__title">The build</h3>
-                <p class="journey-step__copy">Establish a structured reporting and review cadence, tailored to how your business operates and the decisions leadership needs to make.</p>
+                <p class="journey-step__copy">Build a tailored monthly structure so your numbers can start making sense.</p>
               </div>
             </li>
             <li class="journey-step">
               <div class="journey-step__num">03</div>
               <div class="journey-step__body">
                 <h3 class="journey-step__title">Improve control</h3>
-                <p class="journey-step__copy">Tighten visibility across reporting, planning, and cash so finance is easier to manage and act on — and surprises get fewer.</p>
+                <p class="journey-step__copy">Bring everything into one clear view — so you can see what’s happening and act earlier.</p>
               </div>
             </li>
             <li class="journey-step">
               <div class="journey-step__num">04</div>
               <div class="journey-step__body">
                 <h3 class="journey-step__title">Stronger support</h3>
-                <p class="journey-step__copy">Use finance as a guide for short-term priorities and long-term direction — not just a month-end compliance exercise.</p>
+                <p class="journey-step__copy">Once the numbers make sense, they become your tool to guide decisions day to day.</p>
               </div>
             </li>
             <li class="journey-step">
               <div class="journey-step__num">05</div>
               <div class="journey-step__body">
                 <h3 class="journey-step__title">Refine as you grow</h3>
-                <p class="journey-step__copy">Reporting and forecasts evolve with the business rather than lag behind it, so the setup stays useful as complexity increases.</p>
+                <p class="journey-step__copy">As your business grows, your setup evolves with it — so finance stays useful.</p>
               </div>
             </li>
           </ol>
@@ -1806,7 +1821,6 @@
             <div class="eyebrow"><span class="eyebrow__index">03</span> · Why Cuno</div>
             <h2 class="h-section">More than reporting, less than a full-time senior finance hire.</h2>
           </div>
-          <p class="h-lead">Recurring senior finance input, clearer reporting, forward cash visibility, and a monthly rhythm leadership will actually use.</p>
         </div>
 
         <div class="benefits__grid">
@@ -1815,27 +1829,27 @@
               <div class="benefit__num">01</div>
               <div class="benefit__meta">Recurring support</div>
             </div>
-            <h3 class="benefit__title">More than reporting, less than a full-time senior finance hire.</h3>
-            <p class="benefit__copy">Built for businesses that need recurring senior finance input, but aren't ready for a full-time CFO.</p>
-            <div class="benefit__impact">Impact · clear monthly visibility before a full-time hire is needed</div>
+            <h3 class="benefit__title">More than reporting. Without the full-time cost.</h3>
+            <p class="benefit__copy">Built for businesses that need ongoing senior finance support but aren't ready for a full-time CFO.</p>
+            <div class="benefit__impact">Impact · Clear monthly visibility without hiring too early</div>
           </article>
           <article class="benefit reveal">
             <div class="benefit__head">
               <div class="benefit__num">02</div>
               <div class="benefit__meta">Timely reporting</div>
             </div>
-            <h3 class="benefit__title">Decision-ready reporting instead of delayed monthly admin.</h3>
-            <p class="benefit__copy">Management reporting is built around relevant, timely information — not historic packs sent after the moment has passed.</p>
-            <div class="benefit__impact">Impact · leaders work from a clear, current view</div>
+            <h3 class="benefit__title">Delivered when your business needs it the most.</h3>
+            <p class="benefit__copy">Reporting is built around relevant, timely information — not historic packs sent after the moment has passed.</p>
+            <div class="benefit__impact">Impact · Decisions made from a clear, current view</div>
           </article>
           <article class="benefit reveal">
             <div class="benefit__head">
               <div class="benefit__num">03</div>
               <div class="benefit__meta">Forward visibility</div>
             </div>
-            <h3 class="benefit__title">Forward cash visibility before pressure turns into risk.</h3>
+            <h3 class="benefit__title">See what’s ahead before it becomes a problem.</h3>
             <p class="benefit__copy">Cash is managed as a live business issue, not a last-minute bank balance check.</p>
-            <div class="benefit__impact">Impact · fewer surprises around cash and timing</div>
+            <div class="benefit__impact">Impact · Fewer surprises around cash and timing</div>
           </article>
           <article class="benefit reveal">
             <div class="benefit__head">
@@ -1844,7 +1858,7 @@
             </div>
             <h3 class="benefit__title">A monthly cadence leadership will actually use.</h3>
             <p class="benefit__copy">Finance runs on a structured monthly rhythm, making it easier to manage and act on each cycle.</p>
-            <div class="benefit__impact">Impact · regular, calmer, more actionable finance discussions</div>
+            <div class="benefit__impact">Impact · Regular, calmer, more actionable finance discussions</div>
           </article>
         </div>
       </div>
@@ -1856,7 +1870,6 @@
         <div class="section__intro reveal">
           <div class="eyebrow"><span class="eyebrow__index">04</span> · Operating outcomes</div>
           <h2 class="h-section">Finance support that delivers operating control.</h2>
-          <p class="h-lead">Three common scenarios where a clearer monthly routine changes how leadership sees and runs the business.</p>
         </div>
 
         <div role="tablist" class="outcomes__tabs reveal" aria-label="Operating scenarios">
@@ -2046,23 +2059,23 @@
       // Outcomes tabs
       const caseStudies = [
         {
-          title: 'Timely, relevant reporting that leadership can actually use.',
-          challenge: 'Reporting arrives late, with limited visibility for planning and decision-making. Everything starts to feel like guesswork.',
-          focus: 'Monthly senior finance support tightens the reporting pack and introduces a consistent monthly review rhythm.',
+          title: 'Timely, relevant reporting that leadership can use.',
+          challenge: 'Reporting arrives late, with limited visibility for planning and decision-making so everything starts to feel like guesswork.',
+          focus: 'We tighten the reporting and introduce a consistent monthly rhythm — so your numbers become something you can actually use.',
           change: 'A clear, decision-ready monthly picture instead of a backward-looking admin document.',
           stats: [
             ['Monthly pack', 'Decision-ready reporting'],
             ['Leadership focus', 'Commercially useful support'],
             ['Clarity', 'Sharper monthly control'],
           ],
-          principleTitle: 'No fake proof layer',
-          principleCopy: 'Trust is built through clear services, defined process, and realistic expectations — not fabricated reviews or inflated claims.',
+          principleTitle: 'Tailored to your business',
+          principleCopy: 'Everything is built on a clear process and realistic expectations — so it works in practice.',
         },
         {
           title: 'Cash visibility before pressure becomes risk.',
-          challenge: 'When receipts, spend, and commitments are not clearly tracked, cash risk becomes harder to control.',
-          focus: 'Cashflow management builds a rolling forecast and a practical decision cadence around cash inflows and outflows.',
-          change: 'Cash becomes a forward-looking management discussion, not a late-stage surprise.',
+          challenge: 'When receipts, spend, and commitments are not clearly tracked, cash risk becomes harder to predict and control.',
+          focus: 'We build a rolling forecast and a simple planning rhythm so you can see what’s ahead and act earlier.',
+          change: 'Cash becomes a forward-looking management discussion and not a late-stage surprise.',
           stats: [
             ['Rolling forecast', 'Forward visibility'],
             ['Planning', 'Efficient planning cadence'],
@@ -2073,7 +2086,7 @@
         },
         {
           title: 'Reporting for businesses that have outgrown informal finance.',
-          challenge: 'Bookkeeping and year-end compliance may exist, but leadership still lacks dependable monthly finance support.',
+          challenge: 'Bookkeeping and year-end compliance may be in place, but leadership still lacks dependable monthly finance support.',
           focus: 'Cuno works alongside your team to add structure, interpretation, and a consistent management rhythm.',
           change: 'Finance becomes easier to manage, information becomes useful, and performance insight supports better decisions.',
           stats: [
