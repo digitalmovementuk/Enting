@@ -1,46 +1,51 @@
-# Enting
-
-SEO project scaffold for the `digitalmovementuk` environment.
+# Financeable Consulting Preview
 
 ## Stack
 
 - Vite
 - React
 - TypeScript
-- Static public assets for SEO metadata
-- Content folders for master pages and geo-page generation
+- Tailwind CSS v3
+- Framer Motion
+- Playwright + axe-core
+- Static public assets for metadata, sitemap, icons, and GitHub Pages deployment
 
 ## Project structure
 
-- `src/`: app shell and brand content
-- `seo/`: all SEO project artefacts for research, templates, queues, outputs, deployment, QA and tracking
-- `scripts/generate-geo-pages.mjs`: simple CSV-driven page generator
-- `public/`: robots, OG image, favicon
+- `src/`: Financeable Consulting page components, layouts, content, and section modules
+- `about/`, `contact/`, `services/`: multi-page HTML entries for the live site
+- `workspace/`: SEO research, page matrix, strategy, briefs, and long-form source drafts
+- `public/`: metadata assets, icons, sitemap, manifest, and placeholder legal pages
+- `scripts/generate-geo-pages.mjs`: preserved generator for the later landing-page buildout
+- `scripts/generate-icons.mjs`: raster icon generation from the SVG brand assets
+- `tests/`: Playwright checks, screenshots, and Lighthouse reports
 
-## SEO workspace
+## Live site scope
 
-Everything related to the Enting SEO build belongs inside `seo/`.
+The published website contains:
 
-- `seo/01_strategy/`: source docs, briefs, architecture notes, inputs from the SEO page builder workflow
-- `seo/02_research/`: keyword exports, competitor notes, entity research
-- `seo/03_templates/`: master page templates, schema snippets, prompt assets
-- `seo/04_build-queue/`: CSV queues for service, modifier and geo combinations
-- `seo/05_generated/`: generated master pages, geo pages and CMS import artefacts
-- `seo/06_assets/`: SEO visuals and reusable media assets
-- `seo/07_deployment/`: WordPress, internal-linking and sitemap deployment artefacts
-- `seo/08_qa/`: launch checklists and validation outputs
-- `seo/09_tracking/`: GSC, GA4, Semrush and AI-search tracking files
+- homepage
+- Monthly CFO page
+- Financial Reporting page
+- Cashflow Management page
+- About page
+- Contact page
 
 ## Commands
 
 ```bash
 npm install
+npm run generate:icons
 npm run dev
 npm run build
+npm run preview -- --host 127.0.0.1 --port 4217
+npm run test:e2e
+npm run lighthouse
 npm run generate:geo
 ```
 
 ## Notes
 
-- The current shell did not have `node` available during setup, so dependencies were not installed here.
-- Update the placeholder domain `https://www.enting.de/` before launch if a different domain will be used.
+- Canonical URLs and sitemap currently target `https://digitalmovementuk.github.io/Enting/`.
+- Public Google reviews were not found during research, so the site uses a reassurance section instead of a review carousel.
+- Legal and privacy pages are placeholders until approved business/legal copy is available.
